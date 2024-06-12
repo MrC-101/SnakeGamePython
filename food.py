@@ -19,3 +19,5 @@ class Food(Turtle):
         y_coord = random.choice(range(*FOOD_AREA))
         self.teleport(x_coord, y_coord)
         self.showturtle()
+
+# test comment
